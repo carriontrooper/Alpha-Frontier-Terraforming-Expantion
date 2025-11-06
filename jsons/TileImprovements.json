@@ -1157,9 +1157,9 @@
                 "turnsToBuild": 3,
 		"techRequired": "Terraforming",
                 "uniques": [
-		"Consumes [1] [Oxygen] <when number of [Oxygen] is greater than [Oxygen Best Status]>",
+		"Consumes [1] [Oxygen] <when number of [Oxygen] is more than [Oxygen Best Status]>",
 		"Provides [1] [Oxygen] <when number of [Oxygen] is less than [Oxygen Best Status]>",
-		"Consumes [1] [Atmosphere] <when number of [Atmosphere] is greater than [Atmosphere Best Status]>",
+		"Consumes [1] [Atmosphere] <when number of [Atmosphere] is more than [Atmosphere Best Status]>",
 		"Provides [1] [Atmosphere] <when number of [Atmosphere] is less than [Atmosphere Best Status]>"],
 		"civilopediaText": [
 			{
@@ -1175,9 +1175,9 @@
 		"terrainsCanBeBuiltOn": ["Land"],
                 "turnsToBuild": 3,
 		"techRequired": "Terraforming",
-                "uniques": ["Consumes [1] [Temperature] <when number of [Temperature] is greater than [Temperature Best Status]>",
+                "uniques": ["Consumes [1] [Temperature] <when number of [Temperature] is more than [Temperature Best Status]>",
 		"Provides [1] [Temperature] <when number of [Temperature] is less than [Temperature Best Status]>",
-		"Consumes [1] [Water] <when number of [Water] is greater than [Water Best Status]>",
+		"Consumes [1] [Water] <when number of [Water] is more than [Water Best Status]>",
 		"Provides [1] [Water] <when number of [Water] is less than [Water Best Status]>"],
 		"civilopediaText": [
 			{
@@ -1237,9 +1237,9 @@
                 "uniques": ["Provides [33] [Water] <when number of [Water] is less than [Water Best Status]>",
                 "Consumes [20] [Atmosphere] <when number of [Water] is less than [Water Best Status]>",
                 "Provides [10] [Temperature] <when number of [Water] is less than [Water Best Status]>",
-		"Consumes [33] [Water] <when number of [Water] is greater than [Water Best Status]>",
-                "Provides [20] [Atmosphere] <when number of [Water] is greater than [Water Best Status]>",
-                "Consumes [10] [Temperature] <when number of [Water] is greater than [Water Best Status]>"]
+		"Consumes [33] [Water] <when number of [Water] is more than [Water Best Status]>",
+                "Provides [20] [Atmosphere] <when number of [Water] is more than [Water Best Status]>",
+                "Consumes [10] [Temperature] <when number of [Water] is more than [Water Best Status]>"]
 	},
 	{
 		"name": "Oxygen Burner",
