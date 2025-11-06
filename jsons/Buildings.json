@@ -28,7 +28,7 @@
 		"uniques": [
 			"Can only be built <in [non-[Puppeted]] cities>",
 			"Triggers a global alert upon build start",
-			"Hidden when [Terraforming] Victory is disabled"
+			"Only available <when [Terraforming] Victory is enabled>"
 		],
 		"quote": "'Today, we will demonstrate our utter mastery over this planet; for better or for worse.' - Kim Kwan Seol, terraforming project lead",
 		"civilopediaText": [
@@ -45,7 +45,7 @@
 		"uniques": [
 			"Provides [25] [Atmosphere] <when number of [Atmosphere] is less than [Atmosphere Best Status]>",
 			"Limited to [1] per Civilization",
-			"Hidden when [Terraforming] Victory is disabled"
+			"Only available <when [Terraforming] Victory is enabled>"
 		],
 		"civilopediaText": [
 			{
@@ -64,7 +64,7 @@
 			"Consumes [5] [Biomass]",
 			"[+1 Production] from [Mine] tiles [in this city]",
 			"Limited to [3] per Civilization",
-			"Hidden when [Terraforming] Victory is disabled"
+			"Only available <when [Terraforming] Victory is enabled>"
 		],
 		"civilopediaText": [
 			{
@@ -83,7 +83,7 @@
 			"[+1 Food] from [Agri Farm] tiles [in this city]",
 			"[+1 Food] from [Terraboretum] tiles [in this city]",
 			"Limited to [3] per Civilization",
-			"Hidden when [Terraforming] Victory is disabled"
+			"Only available <when [Terraforming] Victory is enabled>"
 		],
 		"civilopediaText": [
 			{
@@ -97,11 +97,11 @@
 		//"isNationalWonder": true,
 		"requiredTech": "Terraforming",
 		"uniques": [
-			"Provides [1] [Biomass] <for every [100] [Water]> <when number of [Water] is greater than [1000]>",
+			"Provides [1] [Biomass] <for every [100] [Water]> <when number of [Water] is more than [1000]>",
 			"Must be next to [Coast]",
 			"[+1 Food] from [Water resource] tiles [in this city]",
 			"Limited to [3] per Civilization",
-			"Hidden when [Terraforming] Victory is disabled"
+			"Only available <when [Terraforming] Victory is enabled>"
 		],
 		"civilopediaText": [
 			{
@@ -119,7 +119,7 @@
 			"Only available <when number of [Water] is between [3600] and [4000]>",
 			"Only available <when number of [Temperature] is between [2780] and [3230]>",
 			"Only available <when number of [Atmosphere] is between [780] and [1213]>",
-			"Only available <when number of [Biomass] is greater than [550000]>",
+			"Only available <when number of [Biomass] is more than [550000]>",
 			"Only available <if [Atmospheric Generator] is constructed in at least [3] of [non-[Puppeted]] cities>",
 			"Only available <if [Tectonic Stabilizer] is constructed in at least [3] of [non-[Puppeted]] cities>",
 			"Only available <if [Soil Revitalizer] is constructed in at least [3] of [non-[Puppeted]] cities>",
