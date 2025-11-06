@@ -11,7 +11,7 @@
 		"Provides [3800] [Water Best Status]", /*+1m per water,*/
 		"Provides [1013] [Atmosphere Best Status]", /*+1 hPa per Atmosphere,*/
 		"Provides [2100] [Oxygen Best Status]", /*+100ppm per Oxygen,*/
-		"Provides [1] [Temperature] <when number of [Atmosphere] is greater than [Atmosphere Best Status]>",
+		"Provides [1] [Temperature] <when number of [Atmosphere] is more than [Atmosphere Best Status]>",
 		"Provides [1] [Biomass] <for every [100] [Biomass]>",
 		"Provides [1] [Biomass] <for every [100] [Biomass]> <when number of [Oxygen] is between [1800] and [3200]>",
 		"Provides [1] [Biomass] <for every [100] [Biomass]> <when number of [Water] is between [3600] and [4000]>",
