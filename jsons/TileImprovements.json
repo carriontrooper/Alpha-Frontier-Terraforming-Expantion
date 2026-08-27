@@ -12,7 +12,8 @@
 		"turnsToBuild": 6,
 		"techRequired": "Old Earth Knowledge",
 		"uniques": [
-                        "Provides [1] [Oxygen]",
+            "Agricultural",
+			"Provides [1] [Oxygen]",
 			"Can also be built on tiles adjacent to fresh water",
 			"Cannot be built on [Water] tiles",
 			"[+1 Food] from [Fresh water] tiles <after discovering [Xeno-Grafting]>",
@@ -46,10 +47,11 @@
 		"turnsToBuild": 7,
 		"techRequired": "Xenoagriculture",
 		"uniques": [
-                        "Provides [1] [Biomass]",
-                        "Provides [1] [Oxygen]",
-                        "Consumes [1] [Atmosphere]",
-                        "Consumes [1] [Water]",
+            "Agricultural", 
+			"Provides [1] [Biomass]",
+            "Provides [1] [Oxygen]",
+            "Consumes [1] [Atmosphere]",
+            "Consumes [1] [Water]",
 			"Can also be built on tiles adjacent to fresh water",
 			"Cannot be built on [Water] tiles",
 			"[+1 Food] from [Fresh water] tiles <after discovering [Xeno-Grafting]>",
@@ -84,9 +86,10 @@
 		"turnsToBuild": 8,
 		"techRequired": "Genetics",
 		"uniques": [
-                        "Provides [1] [Oxygen]",
-                        "Consumes [1] [Water]",
-                        "Provides [1] [Atmosphere]",
+            "Agricultural",
+			"Provides [1] [Oxygen]",
+            "Consumes [1] [Water]",
+            "Provides [1] [Atmosphere]",
 			"Can also be built on tiles adjacent to fresh water",
 			"Cannot be built on [Water] tiles",
 			"[+1 Food] from [non-fresh water] tiles <after discovering [Genetic Hybridization]>",
@@ -115,7 +118,7 @@
 		"turnsToBuild": 7,
 		"techRequired": "Xenobiology",
 		"uniques": [
-                        "Consumes [3] [Biomass]",
+            "Consumes [3] [Biomass]",
 			"Cannot be built on [Water] tiles",
 			"Does not need removal of [Forest]",
 			"Does not need removal of [Jungle]",
@@ -413,8 +416,9 @@
 		"food": 1,
 		"techRequired": "Xenoagriculture",
 		"uniques": [
-                        "Provides [2] [Biomass]",
-                        "Provides [1] [Oxygen]",
+            "Agricultural",
+			"Provides [2] [Biomass]",
+            "Provides [1] [Oxygen]",
 			"[+1 Food] <after discovering [Genetics]>",
 			"[+1 Food] <in [Ocean] tiles>",
 			"Can only be built to improve a resource",
@@ -625,7 +629,7 @@
 		"turnsToBuild": 4,
 		"terrainsCanBeBuiltOn": ["Forest"],
 		"techRequired": "Pioneer Administration",
-		"uniques": ["Can be built outside your borders"],
+		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
 		"shortcutKey": "X",
 		"civilopediaText": [
 			{
@@ -638,7 +642,7 @@
 		"turnsToBuild": 7,
 		"terrainsCanBeBuiltOn": ["Jungle"],
 		"techRequired": "Pioneer Administration",
-		"uniques": ["Can be built outside your borders"],
+		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
 		"shortcutKey": "X"
 	},
 	{
@@ -646,7 +650,7 @@
 		"turnsToBuild": 2,
 		"terrainsCanBeBuiltOn": ["Fallout"],
 		// Has no tile improvements as it can always be built
-		"uniques": ["Can be built outside your borders"],
+		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
 		"shortcutKey": "X"
 	},
 	{
@@ -654,7 +658,7 @@
 		"turnsToBuild": 2,
 		"terrainsCanBeBuiltOn": ["Miasma"],
 		"techRequired": "Synthetic Materials",
-		"uniques": ["Can be built outside your borders"],
+		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
 		"shortcutKey": "X"
 	},
 	{
@@ -662,7 +666,7 @@
 		"turnsToBuild": 6,
 		"terrainsCanBeBuiltOn": ["Marsh"],
 		"techRequired": "Pioneer Administration",
-		"uniques": ["Can be built outside your borders"],
+		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
 		"shortcutKey": "X"
 	},
 
@@ -670,16 +674,16 @@
 	{
 		"name": "Remove Road",
 		"turnsToBuild": 2,
-		"uniques": ["Can be built outside your borders"]
+		"uniques": ["Can be built outside your borders", "Excluded from map editor"]
 	},
 	{
 		"name": "Remove Railroad", //rename to Magrail in translations
 		"turnsToBuild": 2,
-		"uniques": ["Can be built outside your borders"]
+		"uniques": ["Can be built outside your borders", "Excluded from map editor"]
 	},
 	{
 		"name": "Cancel improvement order",
-		"uniques": ["Can be built outside your borders"],
+		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
 		"shortcutKey": "."
 	},
 	
@@ -688,7 +692,7 @@
         "terrainsCanBeBuiltOn": ["Land"],
         "turnsToBuild": 2,
         "shortcutKey": "E",
-        "uniques": ["Unbuildable"],
+        "uniques": ["Unbuildable", "Excluded from map editor"],
         "civilopediaText": [{"text":"Repairs a pillaged Improvement or Route"}]
     },
 
@@ -1224,9 +1228,12 @@
 		"terrainsCanBeBuiltOn": ["Water"],
                 "turnsToBuild": 5,
 		"techRequired": "Terraforming",
-                "uniques": ["Provides [20] [Biomass]",
-                "Consumes [5] [Atmosphere]",
-                "Provides [5] [Oxygen]"]
+                "uniques": [
+					"Agricultural",
+					"Provides [20] [Biomass]",
+                	"Consumes [5] [Atmosphere]",
+                	"Provides [5] [Oxygen]"
+				]
         },
 	{
 		"name": "Aquifer Dam",
